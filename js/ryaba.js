@@ -45,7 +45,6 @@ function handleButton() {
       (
           function(element)
             {
-              console.log(element)
               varskey.forEach
               (function(t)
                 {
