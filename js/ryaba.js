@@ -15,8 +15,8 @@ function handleData(data) {
   console.log(var1);
   //render(data);
   console.log(data)  
-  const text = data;
-  	$("#result").text(text);
+  let text = $(data);
+  	$("#result").text(data[1]);
 }
 )
 
