@@ -25,7 +25,7 @@ function handleButton() {
       //const var1 = $("input[name=var1]")[0].value()
       let vars = {}
 
-      varskey.forEach
+      varskey.forEach 
       (
           function(i) 
             {
