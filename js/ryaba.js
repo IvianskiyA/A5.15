@@ -63,10 +63,10 @@ function handleButton() {
 
 }
 function init() {
+  $("#tryagain").hide()
 	$("#button-fetch").click(handleButton);    
-  $("#tryagain").click(handleTryButton);
+  $("#tryagain").click(handleTryButton);  
 }
 
 $(document).ready(init);
-$("#tryagain").hide()
 
